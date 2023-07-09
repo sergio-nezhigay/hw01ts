@@ -1,0 +1,34 @@
+/* .statistics {
+  color: #646b71;
+  background-color: #fff;
+}
+
+.statList {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  list-style-type: none;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 18px;
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+} */
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  padding: 14px 24px;
+}
+
+.percentage {
+  font-size: 18px;
+}
